@@ -2,13 +2,11 @@ from mysql.connector.errors import ProgrammingError
 from bd import nova_conexao
 
 sql = """
-    INSERT INTO contatos (nome, tel) VALUES (%s, %s)
+    INSERT INTO grupos (descricao) VALUES (%s)
 """
-args = [('Teo', '98765-4321'),
-        ('Dig', '98765-4321'),
-        ('Pet', '98765-4321'),
-        ('Mike', '98765-4321'),
-        ('Cleo', '98765-4321')]
+
+args = (('Casa',),
+        ('Trabalho',))
 
 
 with nova_conexao() as conexao:
@@ -19,4 +17,4 @@ with nova_conexao() as conexao:
     except ProgrammingError as e:
         print(f'Erro: {e.msg}')
     else:
-        print(f'Foram incluídos {cursor.rowcount} registros!')
+        print(f'{cursor.rowcount} registro(s) inserido(s)')
