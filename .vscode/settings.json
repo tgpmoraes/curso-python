@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "C:\\Users\\tiagog\\.msvscode.hdinsight\\hdinsightJupyter\\Scripts\\python.exe",
+    "synapseSparkpoolJobSubmission.synapseSparkPoolClusterConf": [
+        {
+            "name": "asaworkspacet20210731 SparkPool01",
+            "filePath": "c:\\HD\\Synaseexample\\HelloWorld.py"
+        }
+    ]
+}
