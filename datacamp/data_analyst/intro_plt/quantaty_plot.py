@@ -22,4 +22,14 @@ ax.set_xticklabels(medals.index, rotation=90)
 # Set the y-axis label
 ax.set_ylabel('Number of medals')
 
-plt.show()
+# plt.show()
+
+# Save as a PNG file with 300 dpi
+fig.savefig('my_figure_300dpi.png', dpi=300)
+
+# Set figure dimensions and save as a PNG
+fig.set_size_inches([3, 5])
+fig.savefig('figure_3_5.png')
+
+fig.set_size_inches([5, 3])
+fig.savefig('figure_5_3.png')

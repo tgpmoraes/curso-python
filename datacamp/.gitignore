@@ -3,3 +3,4 @@ __pycache__
 athlete_events.csv
 Streamlined-Data-Ingestion-with-pandas-Datacamp-main
 *.csv
+*.png
