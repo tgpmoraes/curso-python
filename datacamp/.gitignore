@@ -5,3 +5,4 @@ Streamlined-Data-Ingestion-with-pandas-Datacamp-main
 *.csv
 *.png
 *.hdf5
+*.ftr
