@@ -77,7 +77,7 @@ print(ri.frisk.dtype)
 print(ri.frisk.sum())
 
 # Create a DataFrame of stops in which a search was conducted
-searched = ri[ri.search_conducted is True]
+searched = ri[ri.search_conducted == True]
 
 # Calculate the overall frisk rate by taking the mean of 'frisk'
 print(searched.frisk.mean())
