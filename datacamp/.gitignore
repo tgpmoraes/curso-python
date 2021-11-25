@@ -6,3 +6,4 @@ Streamlined-Data-Ingestion-with-pandas-Datacamp-main
 *.png
 *.hdf5
 *.ftr
+*.sqlite
