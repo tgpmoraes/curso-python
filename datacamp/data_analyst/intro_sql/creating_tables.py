@@ -1,6 +1,6 @@
 # Import Table, Column, String, Integer, Float, Boolean from sqlalchemy
-from sqlalchemy import create_engine, Table, MetaData, select,\
-    Table, Column, String, Integer, Float, Boolean, insert
+from sqlalchemy import (create_engine, Table, MetaData, select,
+                        Table, Column, String, Integer, Float, Boolean, insert)
 
 
 # Create an engine that connects to the census.sqlite file: engine
