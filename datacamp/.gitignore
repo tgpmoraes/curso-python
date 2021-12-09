@@ -7,3 +7,4 @@ Streamlined-Data-Ingestion-with-pandas-Datacamp-main
 *.hdf5
 *.ftr
 *.sqlite
+*.pkl
