@@ -1,9 +1,14 @@
 import numpy as np
+import os
+
+
+home_path = 'C:/Users/tiagog/Documents/curso-python/datacamp'
+data_dir = home_path + '/python_programer/unit_test'
+os.chdir(data_dir)
 
 
 def get_data_as_numpy_array(clean_data_file_path, num_columns):
-    home_path = 'C:/Users/tiagog/Documents/curso-python/datacamp/python_programer'
-    file_path = f'{home_path}/unit_test/{clean_data_file_path}'
+    file_path = clean_data_file_path
     result = np.empty((0, num_columns))
     with open(file_path, "r") as f:
         rows = f.readlines()
