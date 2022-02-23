@@ -23,6 +23,12 @@ class Employee:
     def monthly_salary(self):
         return self.salary / 12
 
+    # Add the __str__() method
+    def __str__(self):
+        return """
+Employee name: {}
+Employee salary: {}""".format(self.name, self.salary)
+
 
 emp = Employee("Korel Rossi", -1000)
 print(emp.name)
@@ -37,3 +43,8 @@ mon_sal = emp2.monthly_salary()
 
 # Print mon_sal
 print(mon_sal)
+
+emp1 = Employee("Amar Howard", 30000)
+print(emp1)
+emp2 = Employee("Carolyn Ramirez", 35000)
+print(emp2)
