@@ -115,3 +115,8 @@ ENV/
 # IDE settings
 .vscode/
 .idea/
+
+# PySpark
+spark-warehouse/
+metastore_db/
+.devcontainer/
