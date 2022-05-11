@@ -1,3 +1,0 @@
-{
-    "CONNECTION_STRING":"mongodb://aztgpmcan:bDCdNXag4EGBmPUHgSFcP6hF5ZN9l96YMu21V7f35YDT73hFEuu5btuC9iFayo2ITr8inAspYSKBprPhKzKwWQ==@aztgpmcan.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@aztgpmcan@"
-}
