@@ -121,3 +121,4 @@ spark-warehouse/
 metastore_db/
 .devcontainer/
 dataset/
+parameters.json
